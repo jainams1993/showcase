@@ -1,0 +1,12 @@
+<label>Filter by:</label>
+<select id="news_category" class="cat_tags_filter">
+	<option value="category" <?= ($category == "category") ? 'selected' : ''?>>Category</option>
+	<option value="all" <?= ($category == "all") ? 'selected' : ''?>>All</option>
+	<?php foreach ($news_categories as $key => $value) { ?>
+		<option value="<?= $value->slug ?>" <?= ($category == $value->slug) ? 'selected' : '' ?>><?= $value->name ?></option>
+	<?php } ?>
+</select>
+<span class="baf_loader"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/load-icon.gif" class="img-fluid"></span>
+
+<div id="news_tag_select"></div>
+<input type="hidden" name="selected_news_tags" id="selected_news_tags" value="<?= (isset($_GET['tags'])) ? $_GET['tags'] : ''; ?>" />

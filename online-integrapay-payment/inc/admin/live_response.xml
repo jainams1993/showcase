@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-16"?>
+<StatusUpdates>
+  <StatusUpdate>
+    <TransactionID>1524726936</TransactionID>
+    <TransactionReceiptID>43230583</TransactionReceiptID>
+    <PayerUniqueID>1524726936</PayerUniqueID>
+    <PayerDisplayID>1524726936</PayerDisplayID>
+    <TransactionStatus>P</TransactionStatus>
+    <TransactionResultDescription />
+    <RejectionTypeID />
+    <DebitDate>2018-04-27</DebitDate>
+    <ClearingDate />
+    <RejectionDate />
+    <SettlementDate />
+    <MoneyRequested>11.00</MoneyRequested>
+    <MoneyCollected>11.88</MoneyCollected>
+    <MoneySettled>11.00</MoneySettled>
+    <SetupFeeBusinessPaid>2.20</SetupFeeBusinessPaid>
+    <SetupFeePayerPaid>0.00</SetupFeePayerPaid>
+    <TransactionFeeBusinessPaid>0.00</TransactionFeeBusinessPaid>
+    <TransactionFeePayerPaid>0.88</TransactionFeePayerPaid>
+    <OtherFeesBusinessPaid>0.00</OtherFeesBusinessPaid>
+    <OtherFeesPayerPaid>0.00</OtherFeesPayerPaid>
+    <RejectionNotificationSMSSent>False</RejectionNotificationSMSSent>
+    <RejectionNotificationEmailSent>False</RejectionNotificationEmailSent>
+    <BusinessReference>10256</BusinessReference>
+    <TransactionDescription />
+    <ScheduleID />
+  </StatusUpdate>
+</StatusUpdates>

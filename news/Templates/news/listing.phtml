@@ -1,0 +1,67 @@
+<?php
+	$count = 0;	    	
+    while ($loop->have_posts() ) : $loop->the_post(); 
+    	$news_date 		 	 = get_post_meta($loop->posts[$count]->ID,'news_date',true);
+    	$date				 = date_create($news_date );
+    	//$date 			 = DateTime::createFromFormat('j-m-Y', $news_date);
+		$news_author 		 = get_post_meta($loop->posts[$count]->ID,'news_author',true);
+    	$external_url 		 = get_post_meta($loop->posts[$count]->ID,'external_url',true);
+    	$news_category		 = get_the_terms($loop->posts[$count]->ID,'news-category');
+    	$news_tags		 	 = get_the_terms($loop->posts[$count]->ID,'news-tag');
+    	if(get_the_post_thumbnail($loop->posts[$count]->ID)){
+			$image = get_the_post_thumbnail($loop->posts[$count]->ID,'full');
+		}
+		$cat_url = '';
+		if (isset($params['category']) || isset($_GET['category'])) {
+			if (isset($params['category'])) {
+				$category = $params['category'];
+			}else{
+				$category = $_GET['category'];
+			}
+			$cat_url = isset($category) ? '?ref='.$category : '';
+		}
+    	?>
+    	<li>
+			<div class="baf-holder">
+				<div class="baf-holder-inner">
+					<div class="holder-flex-box">
+						<?php if ( !is_home() && ! is_front_page()): ?>
+							<ul class="listing_info">
+								<?php if($news_date): echo '<li>'.date_format($date,'F d, Y').'</li>'; endif;?><li><?= get_the_author_meta('display_name',$news_author) ?></li>
+								<?php if ($news_category): ?>
+								<?php foreach ($news_category as $key => $value) { ?>
+									<li><?= $value->name ?></li>
+								<?php } ?>
+								<?php endif; ?>
+							</ul>
+							<?php if ($news_tags): ?>
+								<ul class="listing_tags">
+									<?php foreach ($news_tags as $key => $value) { ?>
+										<li><a href="<?= site_url('news') ?>?tags=<?= $value->slug ?>">#<?= $value->name ?></a></li>
+									<?php } ?>
+								</ul>
+							<?php endif; ?>
+						<?php endif; ?>
+						<div class="onethird-width">
+							<?php if(get_the_post_thumbnail($loop->posts[$count]->ID)): ?>
+								<div class="holder-image-box">
+									<a href="<?php the_permalink(); ?>">
+										<?= $image ?>
+									</a>
+								</div>
+							<?php endif;  ?>
+							<div class="holder-data-box">
+								<h5><?= the_title(); ?></h5>
+								<p><?= wp_trim_words(get_the_content(), 20, '..'); ?></p>
+								<a href="<?php the_permalink(); ?><?= $cat_url  ?>">View News <i class="fas fa-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+<?php
+	$count++;
+    endwhile;
+    wp_reset_postdata();
+?>

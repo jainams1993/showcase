@@ -1,0 +1,94 @@
+.cu-row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.cu-col-1, .cu-col-2, .cu-col-3, .cu-col-4, .cu-col-5, .cu-col-6, .cu-col-7, .cu-col-8, .cu-col-9, .cu-col-10, .cu-col-11, .cu-col-12 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.cu-col-12 {
+  width: 100%;
+}
+.cu-col-11 {
+  width: 91.66666667%;
+}
+.cu-col-10 {
+  width: 83.33333333%;
+}
+.cu-col-9 {
+  width: 75%;
+}
+.cu-col-8 {
+  width: 66.66666667%;
+}
+.cu-col-7 {
+  width: 58.33333333%;
+}
+.cu-col-6 {
+  width: 50%;
+}
+.cu-col-5 {
+  width: 41.66666667%;
+}
+.cu-col-4 {
+  width: 33.33333333%;
+}
+.cu-col-3 {
+  width: 25%;
+}
+.cu-col-2 {
+  width: 16.66666667%;
+}
+.cu-col-1 {
+  width: 8.33333333%;
+}
+#onlineintergrapay_form {
+    width: 600px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+#onlineintergrapay_form .cu-row {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+#onlineintergrapay_form label{
+    padding: 7px 15px;
+}
+#onlineintergrapay_form input{
+    width: 100%;
+}
+#onlineintergrapay_form button{
+    width: 100%;
+    padding: 9px 18px;
+}
+#onlineintergrapay_form span .alert-danger {
+    background-color: transparent; 
+    border-color: transparent;
+    padding: 0;
+    margin-bottom: 0;
+}
+.loader {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/loader.gif);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+@media (max-width: 767px) {
+  #onlineintergrapay_form {
+    width: 100%;
+  }
+}
+#onlineintergrapay_form input {
+  border: 1px solid #ececec;
+}

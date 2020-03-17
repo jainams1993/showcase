@@ -1,0 +1,14 @@
+<?php 
+$pages = ceil($total_posts / $max_per_page);
+if($pages > 1):
+	$params['page']	= $paged;
+	$isFirstPage 	= ($params['page'] == 1);
+	$isLastPage 	= ($params['page'] == $pages);
+	
+	if(!$isFirstPage) : ?>
+		<li><a href="javascript:void(0)" class="pagination-previous-btn" data-first = "<?= ($params['page'] - 1) ?>"><i class="fas fa-chevron-left"></i> Prev</a></li>
+	<?php endif; ?>
+	<?php if(!$isLastPage) : ?>
+		<li><a href="javascript:void(0)" class="pagination-next-btn" data-last= "<?= ($params['page'] + 1) ?>">Next <i class="fas fa-chevron-right"></i></a></li>
+	<?php endif; 
+endif; ?>

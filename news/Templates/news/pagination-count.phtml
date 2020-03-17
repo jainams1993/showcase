@@ -1,0 +1,11 @@
+<?php
+if ($paged == 1) {
+	$x = 1;
+	$y = ($total_posts > $max_per_page) ? $max_per_page : $total_posts;
+}else{
+	$x = (($paged - 1) * $max_per_page) + 1; 
+	$totals = $paged * $max_per_page;
+	$y = ($total_posts > $totals) ? $totals : $total_posts;  
+}
+?>
+<p class="intro">Displaying News <?= $x ?> - <?= $y ?> of <?= $total_posts ?></p>

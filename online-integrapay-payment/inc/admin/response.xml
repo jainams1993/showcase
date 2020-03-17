@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-16"?>
+<StatusUpdates>
+  <StatusUpdate>
+    <TransactionID />
+    <TransactionReceiptID>909025</TransactionReceiptID>
+    <PayerUniqueID>XT66433424A</PayerUniqueID>
+    <PayerDisplayID>XT66433424A</PayerDisplayID>
+    <TransactionStatus>S</TransactionStatus>
+    <TransactionResultDescription />
+    <RejectionTypeID />
+    <DebitDate>2018-03-08</DebitDate>
+    <ClearingDate>2018-03-12</ClearingDate>
+    <RejectionDate />
+    <SettlementDate>2018-03-12</SettlementDate>
+    <MoneyRequested>10.00</MoneyRequested>
+    <MoneyCollected>10.00</MoneyCollected>
+    <MoneySettled>10.00</MoneySettled>
+    <SetupFeeBusinessPaid>0.00</SetupFeeBusinessPaid>
+    <SetupFeePayerPaid>0.00</SetupFeePayerPaid>
+    <TransactionFeeBusinessPaid>0.00</TransactionFeeBusinessPaid>
+    <TransactionFeePayerPaid>0.00</TransactionFeePayerPaid>
+    <OtherFeesBusinessPaid>0.00</OtherFeesBusinessPaid>
+    <OtherFeesPayerPaid>0.00</OtherFeesPayerPaid>
+    <RejectionNotificationSMSSent>False</RejectionNotificationSMSSent>
+    <RejectionNotificationEmailSent>False</RejectionNotificationEmailSent>
+    <BusinessReference>1752</BusinessReference>
+    <TransactionDescription />
+    <ScheduleID />
+  </StatusUpdate>
+  <StatusUpdate>
+    <TransactionID />
+    <TransactionReceiptID>909026</TransactionReceiptID>
+    <PayerUniqueID>XT66433424A</PayerUniqueID>
+    <PayerDisplayID>XT66433424A</PayerDisplayID>
+    <TransactionStatus>S</TransactionStatus>
+    <TransactionResultDescription />
+    <RejectionTypeID />
+    <DebitDate>2018-03-08</DebitDate>
+    <ClearingDate>2018-03-12</ClearingDate>
+    <RejectionDate />
+    <SettlementDate>2018-03-12</SettlementDate>
+    <MoneyRequested>10.00</MoneyRequested>
+    <MoneyCollected>10.00</MoneyCollected>
+    <MoneySettled>10.00</MoneySettled>
+    <SetupFeeBusinessPaid>0.00</SetupFeeBusinessPaid>
+    <SetupFeePayerPaid>0.00</SetupFeePayerPaid>
+    <TransactionFeeBusinessPaid>0.00</TransactionFeeBusinessPaid>
+    <TransactionFeePayerPaid>0.00</TransactionFeePayerPaid>
+    <OtherFeesBusinessPaid>0.00</OtherFeesBusinessPaid>
+    <OtherFeesPayerPaid>0.00</OtherFeesPayerPaid>
+    <RejectionNotificationSMSSent>False</RejectionNotificationSMSSent>
+    <RejectionNotificationEmailSent>False</RejectionNotificationEmailSent>
+    <BusinessReference>1752</BusinessReference>
+    <TransactionDescription />
+    <ScheduleID />
+  </StatusUpdate>
+  <StatusUpdate>
+    <TransactionID />
+    <TransactionReceiptID>909293</TransactionReceiptID>
+    <PayerUniqueID>XT66433424A</PayerUniqueID>
+    <PayerDisplayID>XT66433424A</PayerDisplayID>
+    <TransactionStatus>S</TransactionStatus>
+    <TransactionResultDescription />
+    <RejectionTypeID />
+    <DebitDate>2018-03-09</DebitDate>
+    <ClearingDate>2018-03-13</ClearingDate>
+    <RejectionDate />
+    <SettlementDate>2018-03-13</SettlementDate>
+    <MoneyRequested>10.00</MoneyRequested>
+    <MoneyCollected>10.00</MoneyCollected>
+    <MoneySettled>10.00</MoneySettled>
+    <SetupFeeBusinessPaid>0.00</SetupFeeBusinessPaid>
+    <SetupFeePayerPaid>0.00</SetupFeePayerPaid>
+    <TransactionFeeBusinessPaid>0.00</TransactionFeeBusinessPaid>
+    <TransactionFeePayerPaid>0.00</TransactionFeePayerPaid>
+    <OtherFeesBusinessPaid>0.00</OtherFeesBusinessPaid>
+    <OtherFeesPayerPaid>0.00</OtherFeesPayerPaid>
+    <RejectionNotificationSMSSent>False</RejectionNotificationSMSSent>
+    <RejectionNotificationEmailSent>False</RejectionNotificationEmailSent>
+    <BusinessReference>1752</BusinessReference>
+    <TransactionDescription />
+    <ScheduleID />
+  </StatusUpdate>
+  <StatusUpdate>
+    <TransactionID />
+    <TransactionReceiptID>912808</TransactionReceiptID>
+    <PayerUniqueID>XT66433424A</PayerUniqueID>
+    <PayerDisplayID>XT66433424A</PayerDisplayID>
+    <TransactionStatus>S</TransactionStatus>
+    <TransactionResultDescription />
+    <RejectionTypeID />
+    <DebitDate>2018-03-12</DebitDate>
+    <ClearingDate>2018-03-13</ClearingDate>
+    <RejectionDate />
+    <SettlementDate>2018-03-13</SettlementDate>
+    <MoneyRequested>10.00</MoneyRequested>
+    <MoneyCollected>10.00</MoneyCollected>
+    <MoneySettled>10.00</MoneySettled>
+    <SetupFeeBusinessPaid>0.00</SetupFeeBusinessPaid>
+    <SetupFeePayerPaid>0.00</SetupFeePayerPaid>
+    <TransactionFeeBusinessPaid>0.00</TransactionFeeBusinessPaid>
+    <TransactionFeePayerPaid>0.00</TransactionFeePayerPaid>
+    <OtherFeesBusinessPaid>0.00</OtherFeesBusinessPaid>
+    <OtherFeesPayerPaid>0.00</OtherFeesPayerPaid>
+    <RejectionNotificationSMSSent>False</RejectionNotificationSMSSent>
+    <RejectionNotificationEmailSent>False</RejectionNotificationEmailSent>
+    <BusinessReference>1752</BusinessReference>
+    <TransactionDescription />
+    <ScheduleID />
+  </StatusUpdate>
+  <StatusUpdate>
+    <TransactionID />
+    <TransactionReceiptID>912809</TransactionReceiptID>
+    <PayerUniqueID>XT66433424A</PayerUniqueID>
+    <PayerDisplayID>XT66433424A</PayerDisplayID>
+    <TransactionStatus>S</TransactionStatus>
+    <TransactionResultDescription />
+    <RejectionTypeID />
+    <DebitDate>2018-03-12</DebitDate>
+    <ClearingDate>2018-03-13</ClearingDate>
+    <RejectionDate />
+    <SettlementDate>2018-03-13</SettlementDate>
+    <MoneyRequested>10.00</MoneyRequested>
+    <MoneyCollected>10.00</MoneyCollected>
+    <MoneySettled>10.00</MoneySettled>
+    <SetupFeeBusinessPaid>0.00</SetupFeeBusinessPaid>
+    <SetupFeePayerPaid>0.00</SetupFeePayerPaid>
+    <TransactionFeeBusinessPaid>0.00</TransactionFeeBusinessPaid>
+    <TransactionFeePayerPaid>0.00</TransactionFeePayerPaid>
+    <OtherFeesBusinessPaid>0.00</OtherFeesBusinessPaid>
+    <OtherFeesPayerPaid>0.00</OtherFeesPayerPaid>
+    <RejectionNotificationSMSSent>False</RejectionNotificationSMSSent>
+    <RejectionNotificationEmailSent>False</RejectionNotificationEmailSent>
+    <BusinessReference>1752</BusinessReference>
+    <TransactionDescription />
+    <ScheduleID />
+  </StatusUpdate>
+</StatusUpdates>
